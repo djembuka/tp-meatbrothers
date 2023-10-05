@@ -1,0 +1,232 @@
+<form
+  action="/personal/order/make/"
+  method="POST"
+  name="ORDER_FORM"
+  id="bx-soa-order-form"
+  enctype="multipart/form-data"
+>
+  <input
+    type="hidden"
+    name="sessid"
+    id="sessid"
+    value="21b05cf4c1f9e25b7a0fd51125ede012"
+  />
+  <input type="hidden" name="action" value="saveOrderAjax" />
+  <input type="hidden" name="location_type" value="code" />
+  <input type="hidden" name="BUYER_STORE" id="BUYER_STORE" value="0" />
+  <div id="bx-soa-order" class="row bx-site" style="opacity: 0">
+    <!--	MAIN BLOCK	-->
+    <div class="col-sm-9 bx-soa">
+      <div id="bx-soa-main-notifications">
+        <div class="alert alert-danger" style="display: none"></div>
+        <div data-type="informer" style="display: none"></div>
+      </div>
+      <!--	AUTH BLOCK	-->
+      <div
+        id="bx-soa-auth"
+        class="bx-soa-section bx-soa-auth"
+        style="display: none"
+      >
+        <div class="bx-soa-section-title-container">
+          <h2 class="bx-soa-section-title col-sm-9">
+            <span class="bx-soa-section-title-count"></span>Авторизация
+          </h2>
+        </div>
+        <div class="bx-soa-section-content container-fluid"></div>
+      </div>
+
+      <!--	DUPLICATE MOBILE ORDER SAVE BLOCK	-->
+      <div id="bx-soa-total-mobile" style="margin-bottom: 6px"></div>
+
+      <!--	BASKET ITEMS BLOCK	-->
+      <div
+        id="bx-soa-basket"
+        data-visited="false"
+        class="bx-soa-section bx-active"
+      >
+        <div class="bx-soa-section-title-container">
+          <h2 class="bx-soa-section-title col-sm-9">
+            <span class="bx-soa-section-title-count"></span>Товары в заказе
+          </h2>
+          <div class="col-xs-12 col-sm-3 text-right">
+            <a href="javascript:void(0)" class="bx-soa-editstep">изменить</a>
+          </div>
+        </div>
+        <div class="bx-soa-section-content container-fluid"></div>
+      </div>
+
+      <!--	REGION BLOCK	-->
+      <div
+        id="bx-soa-region"
+        data-visited="false"
+        class="bx-soa-section bx-active"
+      >
+        <div class="bx-soa-section-title-container">
+          <h2 class="bx-soa-section-title col-sm-9">
+            <span class="bx-soa-section-title-count"></span>Регион доставки
+          </h2>
+          <div class="col-xs-12 col-sm-3 text-right">
+            <a href="" class="bx-soa-editstep">изменить</a>
+          </div>
+        </div>
+        <div class="bx-soa-section-content container-fluid"></div>
+      </div>
+
+      <!--	PAY SYSTEMS BLOCK	-->
+      <div
+        id="bx-soa-paysystem"
+        data-visited="false"
+        class="bx-soa-section bx-active"
+      >
+        <div class="bx-soa-section-title-container">
+          <h2 class="bx-soa-section-title col-sm-9">
+            <span class="bx-soa-section-title-count"></span>Оплата
+          </h2>
+          <div class="col-xs-12 col-sm-3 text-right">
+            <a href="" class="bx-soa-editstep">изменить</a>
+          </div>
+        </div>
+        <div class="bx-soa-section-content container-fluid"></div>
+      </div>
+      <!--	DELIVERY BLOCK	-->
+      <div
+        id="bx-soa-delivery"
+        data-visited="false"
+        class="bx-soa-section bx-active"
+      >
+        <div class="bx-soa-section-title-container">
+          <h2 class="bx-soa-section-title col-sm-9">
+            <span class="bx-soa-section-title-count"></span>Доставка
+          </h2>
+          <div class="col-xs-12 col-sm-3 text-right">
+            <a href="" class="bx-soa-editstep">изменить</a>
+          </div>
+        </div>
+        <div class="bx-soa-section-content container-fluid"></div>
+      </div>
+      <!--	PICKUP BLOCK	-->
+      <div
+        id="bx-soa-pickup"
+        data-visited="false"
+        class="bx-soa-section"
+        style="display: none"
+      >
+        <div class="bx-soa-section-title-container">
+          <h2 class="bx-soa-section-title col-sm-9">
+            <span class="bx-soa-section-title-count"></span>
+          </h2>
+          <div class="col-xs-12 col-sm-3 text-right">
+            <a href="" class="bx-soa-editstep">изменить</a>
+          </div>
+        </div>
+        <div class="bx-soa-section-content container-fluid"></div>
+      </div>
+      <!--	BUYER PROPS BLOCK	-->
+      <div
+        id="bx-soa-properties"
+        data-visited="false"
+        class="bx-soa-section bx-active"
+      >
+        <div class="bx-soa-section-title-container">
+          <h2 class="bx-soa-section-title col-sm-9">
+            <span class="bx-soa-section-title-count"></span>Покупатель
+          </h2>
+          <div class="col-xs-12 col-sm-3 text-right">
+            <a href="" class="bx-soa-editstep">изменить</a>
+          </div>
+        </div>
+        <div class="bx-soa-section-content container-fluid"></div>
+      </div>
+
+      <!--	ORDER SAVE BLOCK	-->
+      <div id="bx-soa-orderSave">
+        <div
+          class="modal fade"
+          id="consentModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="consentModalLabel"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <h2 class="modal-title text-center" id="consentModalLabel">
+                  Текст соглашения
+                </h2>
+              </div>
+              <div class="modal-body" style="white-space: pre-wrap">
+                Загрузка...
+              </div>
+              <div class="modal-footer text-center">
+                <button type="button" class="btn btn-default btn-size-M">
+                  Принимаю
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-default btn-reset btn-size-M"
+                >
+                  Не принимаю
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bx-soa-section-content container-fluid checkbox">
+          <input
+            type="checkbox"
+            value="Y"
+            class="filled-in"
+            id="filled-in-box"
+            name=""
+          />
+          <label
+            for="filled-in-box"
+            data-toggle="modal"
+            data-target="#consentModal"
+            data-bx-user-consent='{"id":1,"sec":"iokhby","autoSave":false,"actionUrl":"\/bitrix\/components\/bitrix\/main.userconsent.request\/ajax.php","replace":{"button_caption":"\u041e\u0444\u043e\u0440\u043c\u0438\u0442\u044c \u0437\u0430\u043a\u0430\u0437","fields":["\u0424.\u0418.\u041e.","E-Mail","\u0422\u0435\u043b\u0435\u0444\u043e\u043d","\u041c\u0435\u0441\u0442\u043e\u043f\u043e\u043b\u043e\u0436\u0435\u043d\u0438\u0435","\u0413\u043e\u0440\u043e\u0434","\u0410\u0434\u0440\u0435\u0441 \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0438","\u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438","\u042e\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0430\u0434\u0440\u0435\u0441","\u0418\u041d\u041d","\u041a\u041f\u041f","\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u043d\u043e\u0435 \u043b\u0438\u0446\u043e","E-Mail","\u0422\u0435\u043b\u0435\u0444\u043e\u043d","\u0424\u0430\u043a\u0441","\u0418\u043d\u0434\u0435\u043a\u0441","\u0413\u043e\u0440\u043e\u0434","\u041c\u0435\u0441\u0442\u043e\u043f\u043e\u043b\u043e\u0436\u0435\u043d\u0438\u0435","\u0410\u0434\u0440\u0435\u0441 \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0438","IP-\u0430\u0434\u0440\u0435\u0441"]},"url":null,"submitEventName":"bx-soa-order-save"}'
+            class="main-user-consent-request"
+          >
+            Нажимая на кнопку «Регистрация», вы даете согласие на обработку
+            своих персональных данных.</label
+          >
+        </div>
+
+        <div class="bx-soa-button-block">
+          <a
+            href="javascript:void(0)"
+            class="btn btn-default btn-size-L"
+            data-save-button="true"
+          >
+            Оформить заказ
+          </a>
+        </div>
+      </div>
+
+      <div style="display: none">
+        <div id="bx-soa-basket-hidden" class="bx-soa-section"></div>
+        <div id="bx-soa-region-hidden" class="bx-soa-section"></div>
+        <div id="bx-soa-paysystem-hidden" class="bx-soa-section"></div>
+        <div id="bx-soa-delivery-hidden" class="bx-soa-section"></div>
+        <div id="bx-soa-pickup-hidden" class="bx-soa-section"></div>
+        <div id="bx-soa-properties-hidden" class="bx-soa-section"></div>
+        <div id="bx-soa-auth-hidden" class="bx-soa-section">
+          <div class="bx-soa-section-content container-fluid reg"></div>
+        </div>
+      </div>
+    </div>
+
+    <!--	SIDEBAR BLOCK	-->
+    <div id="bx-soa-total" class="col-sm-3 bx-soa-sidebar">
+      <div class="bx-soa-cart-total-ghost"></div>
+      <div class="bx-soa-cart-total"></div>
+    </div>
+  </div>
+</form>

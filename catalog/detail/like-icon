@@ -1,0 +1,5 @@
+
+                <div class="item-action like "
+                  onclick="toggle_favorite(this); return false;"
+                  data-id="1001"
+                  title="Избранное"></div>

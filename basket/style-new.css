@@ -1,0 +1,10 @@
+.basket-items-list {
+  padding: 40px;
+}
+.basket-item-block-image {
+  width: 255px;
+  max-width: 255px;
+  flex-shrink: 0;
+  flex: auto;
+  padding: 0;
+}

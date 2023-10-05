@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html xml:lang="ru" lang="ru">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#151515">
+    <meta name="yandex-verification" content="43e98190c247d934" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="robots" content="index, follow" />
+    <link href="https://meatbrothers.net/bitrix/js/main/core/css/core.css?15621420773963" type="text/css" rel="stylesheet" />
+    <script data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";var ieVersion = -1;if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if ((ieVersion = getIeVersion()) > 0){cl += " bx-ie bx-ie" + ieVersion;if (ieVersion > 7 && ieVersion < 10 && !isDoctype()){cl += " bx-quirks";}}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Gecko/.test(ua)){cl += " bx-firefox";}if (/Macintosh/i.test(ua)){cl += " bx-mac";}ht.className = htc ? htc + " " + cl : cl;function isDoctype(){if (d.compatMode){return d.compatMode == "CSS1Compat";}return d.documentElement && d.documentElement.clientHeight;}function getIeVersion(){if (/Opera/i.test(ua) || /Webkit/i.test(ua) || /Firefox/i.test(ua) || /Chrome/i.test(ua)){return -1;}var rv = -1;if (!!(w.MSStream) && !(w.ActiveXObject) && ("ActiveXObject" in w)){rv = 11;}else if (!!d.documentMode && d.documentMode >= 10){rv = 10;}else if (!!d.documentMode && d.documentMode >= 9){rv = 9;}else if (d.attachEvent && !/Opera/.test(ua)){rv = 8;}if (rv == -1 || rv == 8){var re;if (n.appName == "Microsoft Internet Explorer"){re = new RegExp("MSIE ([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}else if (n.appName == "Netscape"){rv = 11;re = new RegExp("Trident/.*rv:([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}}return rv;}})(window, document, navigator);</script>
+    <link href="https://meatbrothers.net/bitrix/cache/css/s1/meatbrothers/kernel_main/kernel_main_v1.css?163421250625782" type="text/css"  rel="stylesheet" />
+    <link href="https://meatbrothers.net/bitrix/js/ui/fonts/opensans/ui.font.opensans.min.css?15621420761861" type="text/css"  rel="stylesheet" />
+    <link href="https://meatbrothers.net/bitrix/cache/css/s1/meatbrothers/page_8f52451af5bd8aec702117c60fe1d20c/page_8f52451af5bd8aec702117c60fe1d20c_v1.css?163421237014450" type="text/css"  rel="stylesheet" />
+    <link href="https://meatbrothers.net/bitrix/cache/css/s1/meatbrothers/default_593901b9a5dd4c56610a6c34572f4306/default_593901b9a5dd4c56610a6c34572f4306_v1.css?16342123705701" type="text/css"  rel="stylesheet" />
+    <link href="https://meatbrothers.net/bitrix/cache/css/s1/meatbrothers/template_c2af178aa57b4277e53841ae18b962b9/template_c2af178aa57b4277e53841ae18b962b9_v1.css?1634212370249432" type="text/css"  data-template-style="true" rel="stylesheet" />
+    <title>Специи - MEATBROTHERS</title>
+    <noscript><img src="https://vk.com/rtrg?p=VK-RTRG-388514-52K9F" style="position:fixed; left:-999px;" alt=""/></noscript>
+    <!-- Begin Verbox {literal} -->
+    <!-- {/literal} End Verbox -->
+    <link href="../../custom.css" rel="stylesheet">
+    <script src="../../custom.js"></script>
+  </head>
+  <body style="background-color:black;">
+    <div id="panel"></div>
+    <!--'start_frame_cache_ZkL5wK'-->
+    <!--'end_frame_cache_ZkL5wK'-->
+    <div class="nav-fix-div">
+      <nav class="header-main">
+        <div class="d-flex container align-items-center">
+          <div class="btn-mobile-menu js-handler-menu-control"></div>
+          <a class="logo" href="/">
+          <img src="https://meatbrothers.net/local/templates/meatbrothers/images/logobig.png"
+            alt="meatbrothers">
+          </a>
+          <div class="d-none d-lg-flex">
+            <!--'start_frame_cache_dwokgd'-->
+            <div class="geo">
+              <div class="title">Твой город</div>
+              <button class="btn-link change-city" data-toggle="modal" data-target="#geo" rel="nofollow">Определение...</button>
+            </div>
+            <div class="modal fade" id="geo" tabindex="-1" role="dialog" aria-labelledby="geoLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="geoLabel">Выберите город</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="form-group">
+                      <div id="sls-18456" class="bx-sls ">
+                        <div class="dropdown-block bx-ui-sls-input-block">
+                          <span class="dropdown-icon"></span>
+                          <input type="text" autocomplete="off" name="city" value="84" class="dropdown-field" placeholder="Введите название ..." />
+                          <div class="dropdown-fade2white"></div>
+                          <div class="bx-ui-sls-loader"></div>
+                          <div class="bx-ui-sls-clear" title="Отменить выбор"></div>
+                          <div class="bx-ui-sls-pane"></div>
+                        </div>
+                        <script type="text/html" data-template-id="bx-ui-sls-error">
+                          <div class="bx-ui-sls-error">
+                          	<div></div>
+                          	{{message}}
+                          </div>
+                        </script>
+                        <script type="text/html" data-template-id="bx-ui-sls-dropdown-item">
+                          <div class="dropdown-item bx-ui-sls-variant">
+                          	<span class="dropdown-item-text">{{display_wrapped}}</span>
+                          				</div>
+                        </script>
+                        <div class="bx-ui-sls-error-message">
+                        </div>
+                      </div>
+                      <ul class="cities_favorite">
+                        <li>
+                          <a href="#" onclick="(function() {
+                            $(document).trigger('dcGeoYandexRequest',{'geo_city':'Москва'})
+                            })()">Москва</a>
+                        </li>
+                        <li>
+                          <a href="#" onclick="(function() {
+                            $(document).trigger('dcGeoYandexRequest',{'geo_city':''})
+                            })()"></a>
+                        </li>
+                        <li>
+                          <a href="#" onclick="(function() {
+                            $(document).trigger('dcGeoYandexRequest',{'geo_city':''})
+                            })()"></a>
+                        </li>
+                        <li>
+                          <a href="#" onclick="(function() {
+                            $(document).trigger('dcGeoYandexRequest',{'geo_city':''})
+                            })()"></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--'end_frame_cache_dwokgd'-->            
+          </div>
+          <div class="d-none d-md-flex w-100">
+            <div id="search" class="search">
+              <form action="/search/index.php">
+                <div class="input-group">
+                  <label for="title-search-input" class="sr-only">Поиск</label>
+                  <input id="title-search-input" type="text" name="q" value="" autocomplete="off" class="form-control search-input" maxlength="50" placeholder="Поиск" />
+                  <div class="static search-btn">
+                    <label for="btn_search_submit" class="sr-only">Искать</label>
+                    <input id="btn_search_submit" class="btn btn-link" name="s" type="submit" value="" aria-label="Send" />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="d-none d-lg-flex">
+            <div class="phones">
+              <a href="tel:+79039681060">+7 903 968-10-60</a>
+              <div class="dropdown">
+              </div>
+              <button class="btn-link" data-toggle="modal" data-target="#callback">Или давай мы наберем</button>
+            </div>
+            <div class="modal fade" id="callback" tabindex="-1" role="dialog" aria-labelledby="callbackLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="callbackLabel">Заказать звонок</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form action="" method="POST" id="callbackForm">
+                      <input type="hidden" name="callbackForm" value="callbackForm">
+                      <div class="form-group">
+                        <label for="callbackName">Ваше имя</label>
+                        <input type="text" class="form-control" id="callbackName" name="callbackName">
+                      </div>
+                      <div class="form-group">
+                        <label for="callbackPhone">Телефон</label>
+                        <input type="tel" class="form-control" id="callbackPhone" name="callbackPhone">
+                      </div>
+                      <input name="submit" type="submit" value="Отправить" class="btn btn-primary">
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="basket_line_header">
+            <a class="d-none d-sm-flex btn btn-link basket-btn personal_btn" href="/auth/" title="Войти"></a>
+            <a class="d-none d-sm-flex btn btn-link basket-btn delay_btn" href="/personal/cart/?liked=Y" title="Избранное" data-basket-qty="0">
+            <span class="badge badge-pill badge-primary">0</span>
+            </a>
+            <a class="d-flex btn btn-link basket-btn basket" href="/personal/cart/" title="Корзина" data-basket-qty="0">
+            <span class="badge badge-pill badge-primary">0</span>
+            </a>
+          </div>
+          <a href="/catalog/search/" class="d-flex d-md-none btn-search">Поиск</a>
+        </div>
+      </nav>
+      <nav class="header-menu">
+        <div class="container">
+          <div class="menu-item  ">
+            <a href="#">О Meatbrothers</a>
+            <div class="dropdown-menu">
+              <div class="dropdown-item-list">
+                <a class="list-item " href="/page/about.php">О нас</a>
+              </div>
+              <div class="dropdown-item-list">
+                <a class="list-item " href="/recipe/">Рецепты</a>
+              </div>
+            </div>
+            <span class="arrow"></span>
+          </div>
+          <div class="menu-item  ">
+            <a href="#">Магазин</a>
+            <div class="dropdown-menu">
+              <div class="dropdown-item-list">
+                <a class="list-item active" href="/catalog/">Миксы и пряности</a>
+              </div>
+              <div class="dropdown-item-list">
+                <a class="list-item " href="/catalog/sousy/">Соусы</a>
+              </div>
+              <div class="dropdown-item-list">
+                <a class="list-item " href="/catalog/nabory-spetsiy/">Наборы</a>
+              </div>
+              <div class="dropdown-item-list">
+                <a class="list-item " href="/catalog/merch/">Мерч</a>
+              </div>
+            </div>
+            <span class="arrow"></span>
+          </div>
+          <div class="menu-item  ">
+            <a href="/page/dostavka/">Доставка</a>
+          </div>
+          <div class="menu-item  ">
+            <a href="/page/contacts/">Где еще купить?</a>
+          </div>
+          <div class="menu-item  ">
+            <a href="/page/forpartners/">Как стать партнёром</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="dc-menu-mobileft-background-close js-handler-menu-control"></div>
+    <div class="dc-menu-mobileft">
+      <div class="wrapper-menu">
+        <ul class='main-menu'>
+          <li>
+            <a href='#' class='parent'>О Meatbrothers</a>
+            <ul class="dropdown" data-depth="1">
+              <li class="back">Назад</li>
+              <li class="title"><a href="#">О Meatbrothers</a></li>
+              <li><a  href="/page/about.php">О нас</a></li>
+              <li><a  href="/recipe/">Рецепты</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href='#' class='parent'>Магазин</a>
+            <ul class="dropdown" data-depth="1">
+              <li class="back">Назад</li>
+              <li class="title"><a href="#">Магазин</a></li>
+              <li><a  href="/catalog/">Миксы и пряности</a></li>
+              <li><a  href="/catalog/sousy/">Соусы</a></li>
+              <li><a  href="/catalog/nabory-spetsiy/">Наборы</a></li>
+              <li><a  href="/catalog/merch/">Мерч</a></li>
+            </ul>
+          </li>
+          <li><a  href="/page/dostavka/">Доставка</a></li>
+          <li><a  href="/page/contacts/">Где еще купить?</a></li>
+          <li><a  href="/page/forpartners/">Как стать партнёром</a></li>
+          <li class="alt-bg">
+            <a href="#" class="link-style city parent"  data-dc="ctrl-city"></a>
+            <ul data-depth="1" class="dropdown">
+              <li class="back">Назад</li>
+              <li>
+                <a class="change-city" href="#" onclick="(function() {
+                  $(document).trigger('dcGeoYandexRequest',{'geo_city':'Москва'})
+                  })()">Москва</a>
+              </li>
+              <li>
+                <a href="#" class="js-handler-menu-control" data-toggle="modal" data-target="#geo">Другой город</a>
+              </li>
+            </ul>
+          </li>
+          <li class="alt-bg">
+            <a href="/auth/" class="link-style account">Кабинет бро</a>
+          </li>
+          <li class="alt-bg">
+            <a href="/personal/cart/" class="link-style basket" data-dc-qty="0">Корзина <span class="badge">0</span></a>
+          </li>
+          <li class="alt-bg">
+            <a href="/personal/cart/?liked=Y" class="link-style heart"  data-dc-qty="0">Отложенные <span class="badge">0</span></a>
+          </li>
+          <li class="alt-bg">
+            <span class="parent link-style phone">
+            Телефоны                                </span>
+            <ul data-depth="1" class="dropdown">
+              <li class="back">Назад</li>
+              <li class="title"><a href="#">Телефоны</a></li>
+              <li>
+                <a href="tel:+79039681060">+7 903 968-10-60</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="contacts">
+        <div class="title">
+          Контактная информация
+        </div>
+      </div>
+      <br>             
+    </div>
+    <!-- Facebook Pixel Code -->
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=402038507075452&ev=PageView&noscript=1"
+      /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <div class="container">
+      <div class="bread-crumbs">
+        <div class="container">
+          <ul class="list" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+            <li class="list-item " itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+              <a itemprop="item" title="Главная" href="/">
+                <span itemprop="name">Главная</span>
+                <meta itemprop="position" content="1">
+              </a>
+              <!--                            <ul class="dropdown">-->
+              <!--								--><!--                                    <li class="list-item">-->
+              <!--                                        <a title="--><!--" href="--><!--">--><!--</a>-->
+              <!--                                    </li>-->
+              <!--								--><!--                            </ul>-->
+              <!--                            -->                    
+            </li>
+            <li class="list-item " itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+              <a itemprop="item" title="Специи" href="/catalog/">
+                <span itemprop="name">Специи</span>
+                <meta itemprop="position" content="2">
+              </a>
+              <!--                            <ul class="dropdown">-->
+              <!--								--><!--                                    <li class="list-item">-->
+              <!--                                        <a title="--><!--" href="--><!--">--><!--</a>-->
+              <!--                                    </li>-->
+              <!--								--><!--                            </ul>-->
+              <!--                            -->                    
+            </li>
+            <li class="list-item " itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+              <a itemprop="item" title="Наборы" href="/catalog/nabory-spetsiy/">
+                <span itemprop="name">Наборы</span>
+                <meta itemprop="position" content="3">
+              </a>
+              <!--                            <ul class="dropdown">-->
+              <!--								--><!--                                    <li class="list-item">-->
+              <!--                                        <a title="--><!--" href="--><!--">--><!--</a>-->
+              <!--                                    </li>-->
+              <!--								--><!--                            </ul>-->
+              <!--                            -->                    
+            </li>
+            <li class="list-item " itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+              <div itemprop="item">
+                <span itemprop="name">набор "Профи"</span>
+                <meta itemprop="position" content="4">
+              </div>
+              <!--                            <ul class="dropdown">-->
+              <!--								--><!--                                    <li class="list-item">-->
+              <!--                                        <a title="--><!--" href="--><!--">--><!--</a>-->
+              <!--                                    </li>-->
+              <!--								--><!--                            </ul>-->
+              <!--                            -->                    
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row m-0 item-section">
+        <a href="" class="item-section__links-right">
+          <svg xmlns="http://www.w3.org/2000/svg" width="8.931" height="16" viewBox="0 0 8.931 16">
+            <path d="M6.938,17.264a.931.931,0,0,1-.659-1.589l6.41-6.411L6.28,2.853A.931.931,0,0,1,7.6,1.537l7.069,7.069a.932.932,0,0,1,0,1.317L7.6,16.991A.929.929,0,0,1,6.938,17.264Z" transform="translate(-6.007 -1.264)" fill="#fff"/>
+          </svg>
+          <span class="item-section__links-hint">
+            <span class="item-section__links-hint__img" style="background-image: url();"></span>
+            <span class="item-section__links-hint__text">набор"Профи"</span>
+          </span>
+        </a>
+        <a href="" class="item-section__links-left">
+          <svg xmlns="http://www.w3.org/2000/svg" width="8.932" height="16" viewBox="0 0 8.932 16">
+            <path d="M14.007,17.264a.931.931,0,0,0,.659-1.589L8.256,9.264l6.41-6.411a.931.931,0,0,0-1.317-1.317L6.28,8.605a.932.932,0,0,0,0,1.317l7.069,7.069A.929.929,0,0,0,14.007,17.264Z" transform="translate(-6.007 -1.264)" fill="#fff"/>
+          </svg>
+          <span class="item-section__links-hint">
+            <span class="item-section__links-hint__img" style="background-image: url();"></span>
+            <span class="item-section__links-hint__text">ШЕФНАБОР</span>
+          </span>
+        </a>
+        <div class="col-md-6 col-12 p-0">
+          <div class="slider-div item345">
+            <div class="slider-item-section"  id="item-section-slider">
+              <a class="item-img"
+                href="/upload/resize_cache/iblock/d95/700_466_1619711fa078991f0a23d032687646b21/d9595870c01b1360ba85ac35dd095f4e.jpg"
+                data-fancybox="images"
+                data-caption="605 гр.">
+                <div class="btn-zoom"></div>
+                <img src="/upload/resize_cache/iblock/d95/510_500_1619711fa078991f0a23d032687646b21/d9595870c01b1360ba85ac35dd095f4e.jpg" alt="605 гр.">
+              </a>
+            </div>
+          </div>
+          <div class="slider-div item344">
+            <div class="slider-item-section"  id="item-section-slider">
+              <a class="item-img"
+                href="/upload/resize_cache/iblock/19c/700_468_1619711fa078991f0a23d032687646b21/19cab961f093273323c1083d2e9a6a0b.jpg"
+                data-fancybox="images"
+                data-caption="1370 гр.">
+                <div class="btn-zoom"></div>
+                <img src="/upload/resize_cache/iblock/19c/510_500_1619711fa078991f0a23d032687646b21/19cab961f093273323c1083d2e9a6a0b.jpg" alt="1370 гр.">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12 p-0">
+
+          <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet" />
+            <link rel="stylesheet" href="style.css">
+            <script src="script.js"></script>
+
+            
+          <div class="item-title-inform">
+            <div class="row">
+              <div class="col-10">
+                <h1 class="h1"><span>набор</span>&quot;Профи&quot;</h1>
+              </div>
+              <div class="col-2 row m-0 like-div">
+                <div class="item-action like "
+                  onclick="toggle_favorite(this); return false;"
+                  data-id="345"
+                  title="Избранное"></div>
+              </div>
+            </div>
+            <div>
+              <span>Выберите размер:</span>
+              <div class="buttons-sizes">
+                <a href="#" class="btn btn-sizes btn-select" onclick="return false;" old-price="" data-id="345" price="1985" product="набор &quot;Профи&quot;(605 гр.)" data-name="605 гр.">605 гр.</a>
+                <a href="#" class="btn btn-sizes" onclick="return false;" old-price="" data-id="344" price="3250" product="набор &quot;Профи&quot;(1370 гр.)" data-name="1370 гр.">1370 гр.</a>
+              </div>
+            </div>
+            <div class="row price-div">
+              <div class="price col-12 col-xl-5 p-0">
+                <div class="old-price-block"></div>
+                <div>Цена:<span class="current">1985</span>
+                  <img
+                    class="svg-rub"
+                    src="/local/templates/meatbrothers/images/ico.png"/> шт.
+                </div>
+              </div>
+              <div class="col-12 col-xl-7 row m-0 p-0 basket-div" data-id="product-card-345">
+                <div class="number">
+                  <span class="minus" onclick="changeCount(-1,this)">-</span>
+                  <input type="text" data-id="345" value="1" disabled/>шт
+                  <span class="plus" onclick="changeCount(1,this)">+</span>
+                </div>
+                <div class="buttons">
+                  <a href="#" class="btn btn-buy"
+                    onclick="sn_to_basket(this); return false;" data-id="345"
+                    data-quantity="1" data-name="набор &quot;Профи&quot; / 605 гр.">В корзину</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item-description">
+            <h2>Подходит:</h2>
+            <div class="category-card-block row text-center">
+              <div class="category-item">
+                <div class="pic">
+                  <img class="img-category" width="23" id="baranina"
+                    src="/upload/uf/669/669413595a49f0adf7f6600e5059fdd5.svg">
+                </div>
+                <div class="category-item-title">Баранина</div>
+              </div>
+              <div class="category-item">
+                <div class="pic">
+                  <img class="img-category" width="23" id="govyadina"
+                    src="/upload/uf/d49/d49e39209c19d1ffb45a4eaee9e16e94.svg">
+                </div>
+                <div class="category-item-title">Говядина</div>
+              </div>
+              <div class="category-item">
+                <div class="pic">
+                  <img class="img-category" width="23" id="kurica"
+                    src="/upload/uf/045/0455e15473041f09a2b71722cf1767b9.svg">
+                </div>
+                <div class="category-item-title">Курица</div>
+              </div>
+              <div class="category-item">
+                <div class="pic">
+                  <img class="img-category" width="23" id="steik"
+                    src="/upload/uf/1e4/1e4cd176155ee65b8a47a125034bd00e.svg">
+                </div>
+                <div class="category-item-title">Стейки</div>
+              </div>
+              <div class="category-item">
+                <div class="pic">
+                  <img class="img-category" width="23" id="svinina"
+                    src="/upload/uf/fa5/fa5c649ee7ebf5a6c319dc9d4987c0e5.svg">
+                </div>
+                <div class="category-item-title">Свинина</div>
+              </div>
+            </div>
+            <h2>Состав:</h2>
+            <p>Робертдауни Мясо, Николас Стейкж, Альпа Чикен, Брэд Свин, Рёберт Дениро, Арнольд Шварцпепер</p>
+            <h2>Описание:</h2>
+            <p>Мощный набор приправ для настоящих грильщиков!  </p>
+            <div class="item-action share">
+              <h3>Поделиться: </h3>
+              <div class="ya-share2 share_icons"
+                data-services="vkontakte,facebook,odnoklassniki,moimir,twitter,viber,whatsapp,skype"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="more-block">
+        <div class="h2">А еще</div>
+        <div class="row">
+          <div class="col-md-4">
+            <a href="" style="background-image: url('https://meatbrothers.net/upload/resize_cache/iblock/afb/400_400_1619711fa078991f0a23d032687646b21/afb0a0bc5d68dbe00ba07c54543b87c2.jpg');"><span>ЕДРИТЬКОПТИТЬ</span></a>
+          </div>
+          <hr class="w-100 d-sm-none d-block">
+          <div class="col-md-4">
+            <a href="" style="background-image: url('https://meatbrothers.net/upload/resize_cache/iblock/afb/400_400_1619711fa078991f0a23d032687646b21/afb0a0bc5d68dbe00ba07c54543b87c2.jpg');"><span>Брускидлякопчения</span></a>
+          </div>
+          <hr class="w-100 d-sm-none d-block">
+          <div class="col-md-4">
+            <a href="" style="background-image: url('https://meatbrothers.net/upload/resize_cache/iblock/afb/400_400_1619711fa078991f0a23d032687646b21/afb0a0bc5d68dbe00ba07c54543b87c2.jpg');"><span>набордядиколи</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-7">
+            <div class="row">
+              <div class="col-12 col-sm-4">
+                <ul class="footer_menu list-unstyled">
+                <li class="title"><a href="javascript:void(0)">Магазин специй</a></li>
+                <li><a href="/catalog/nabory-spetsiy/">Наборы</a></li>
+                <li><a href="/catalog/baranina/">Баранина</a></li>
+                <li><a href="/catalog/govyadina/">Говядина</a></li>
+                <li><a href="/catalog/svinina/">Свинина</a></li>
+                <li><a href="/catalog/kuritsa/">Птица</a></li>
+                <li><a href="/catalog/merch/">Мерч</a></li>
+                <li><a href="/catalog/ryba/">Рыба</a></li>
+                <li><a href="/catalog/sousy/">Соусы</a></li>
+                <li><a href="/catalog/moreprodukty/">Морепродукты</a></li>
+                <li><a href="/catalog/supy/">Супы</a></li>
+                <li><a href="/catalog/ovoshchi/">Овощи</a></li>
+                <li><a href="/catalog/ostroe/">Острое</a></li>
+                <li><a href="/catalog/sol/">Соль</a></li>
+                <li><a href="/catalog/vypechka/">Выпечка</a></li>
+              </div>
+              <div class="col-12 col-sm-4">
+                <ul class="footer_menu list-unstyled">
+                  <li class="title"><a href="javascript:void(0)">Meatbrothers</a></li>
+                  <li><a href="/page/about/">Кто мы?</a></li>
+                  <li><a href="/recipe/">Рецептосы</a></li>
+                  <li><a href="/page/contacts/">Контакты</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-4">
+                <ul class="footer_menu list-unstyled">
+                  <li class="title"><a href="javascript:void(0)">Инфа</a></li>
+                  <li><a href="/personal/">Кабинет бро</a></li>
+                  <li><a href="/page/politika-konfidentsialnosti/">Политика конфиденциальности</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-5">
+            <div class="row">
+              <div class="col-12 col-xl-6 col-lg-12 col-md-6 col-sm-6">
+                <div class="contacts-block">
+                  <div class="h5 block-title">Оставь мыло, чтобы получить инфу о скидосах и выходе новых
+                    мясных бро
+                  </div>
+                  <form class="subscribe-form" id="subscribe-form"
+                    onsubmit="formSubscribe(this); return false;">
+                    <div class="input-group">
+                      <label for="emailSubscribe" class="sr-only">Ваш e-mail</label>
+                      <input class="form-control form-input" id="emailSubscribe" type="email"
+                        placeholder="Ваше мыло" name="SubscribeEmail" size="20" value="" required>
+                      <div class="input-group-append">
+                        <input class="btn btn-outline-secondary form-btn" type="submit" name="OK"
+                          value="" title="Подписаться на рассылку новостей" aria-label="Send"/>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="col-12 col-xl-6 col-lg-12 col-md-6 col-sm-6 ">
+                <div class="h5 block-title contacts-title">Потрём</div>
+                <ul class="list-unstyled">
+                  <li>
+                    <div class="phones-footer">
+                      <a href="tel:+79039681060">+7 903 968-10-60</a>
+                    </div>
+                  </li>
+                  <li><a class="email"
+                    href="mailto:meatbrothersbbq@gmail.com">meatbrothersbbq@gmail.com</a>
+                  </li>
+                  <li><a class="address"
+                    href="/page/contacts/">г. Москва, ул. Прянишникова, д. 23А</a>
+                  </li>
+                </ul>
+                <div id="social_container">
+                  <a href="https://www.youtube.com/channel/UCZaklq64JDGUj8wO7mF4Hfw" class="yt" target="_blank"></a>
+                  <!--<a href="https://www.facebook.com/meatbrothersbbq/" class="fb" target="_blank"></a>-->
+                  <a href="https://www.instagram.com/meatbrothersbbq/" class="inst" target="_blank"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="separator">
+        <div class="row">
+          <div class="col-12 col-lg-6 copyright">2021 © MEATBROTHERS – магазин специй</div>
+          <div class="col-12 col-lg-6">
+            <div class="payments"></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="modal modal-error" tabindex="-1" role="dialog" id="modal-error">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Ошибка</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="close-modal-error">
+            <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p id="text-error"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal form-order" tabindex="-1" role="dialog" id="modal-order-basket">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" style="width:100%">Форма заказа</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="close-modal-order-basket">
+            <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="order-text" style="width:350px;"></div>
+            <div style="width:100%;margin:35px 0px 20px 0px;" class="row">
+              <div class="col-xs-12 col-md-6" style="padding:0;">
+                <a href="#" class="btn-red addorder">Оформить заказ</a> 
+              </div>
+              <div class="col-xs-12 col-md-6" style="padding:0;">
+                <a href="#" class="btn-red continue_buy">Продолжить</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal form-order" tabindex="-1" role="dialog" id="modal-order">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" style="width:100%">Форма заказа</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="close-modal-order">
+          <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="comp_fd70b043ccd51edbbe44e69bf25d1629">
+            <form name="SIMPLE_FORM_1" action="/catalog/items/nabor-dlya-profi/" method="POST" enctype="multipart/form-data">
+              <input type="hidden" name="bxajaxid" id="bxajaxid_fd70b043ccd51edbbe44e69bf25d1629_8BACKi" value="fd70b043ccd51edbbe44e69bf25d1629" /><input type="hidden" name="AJAX_CALL" value="Y" /><input type="hidden" name="sessid" id="sessid" value="3cfb26973a34a5a266a8a8969fbeba93" /><input type="hidden" name="WEB_FORM_ID" value="1" />
+              <div class="row">
+                <div class="input-field">
+                  Имя<font color='red'><span class='form-required starrequired'>*</span></font><br/>						<input type="text"  class="inputtext"  name="form_text_1" value="" size="0" />		
+                </div>
+                <div class="input-field">
+                  Телефон<font color='red'><span class='form-required starrequired'>*</span></font><br/>						<input type="text"  class="inputtext"  name="form_text_2" value="" size="0" />		
+                </div>
+                <div class="input-field">
+                  Комментарий						<textarea name="form_textarea_3" cols="2" rows="5"  class="inputtextarea" ></textarea>		
+                </div>
+                <div class="input-field"><b>Защита от автоматического заполнения</b></div>
+                <div class="input-field"><input type="hidden" name="captcha_sid" value="0598e9c9f40d6807e0865afe737278e6" /><img src="/bitrix/tools/captcha.php?captcha_sid=0598e9c9f40d6807e0865afe737278e6" width="180" height="40" /></div>
+                <div class="input-field">Введите символы с картинки<font color='red'><span class='form-required starrequired'>*</span></font></div>
+                <div class="input-field"><input type="text" name="captcha_word" size="30" maxlength="50" value="" class="inputtext" /></div>
+                <input type="hidden" class="inputtext" name="form_hidden_4" value="">
+                <div class="input-field">
+                  <input  type="submit" name="web_form_submit" value="Отправить" />
+                </div>
+                <p>
+                  <font color='red'><span class='form-required starrequired'>*</span></font> - обязательные поля
+                </p>
+            </form>
+            </div>            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Yandex.Metrika counter -->
+    <noscript>
+      <div><img src="https://mc.yandex.ru/watch/62653153" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139642517-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}	  gtag('js', new Date());
+      
+      gtag('config', 'UA-139642517-1');
+    </script>
+    <script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;};</script>
+    <script>(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script><script src="/bitrix/js/main/core/core.js?1570037889497696"></script><script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/loadext/loadext.js','/bitrix/js/main/loadext/extension.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/includes/js/includes.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/ui/polyfill/closest/js/closest.js','/bitrix/js/main/polyfill/fill/main.polyfill.fill.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/lazyload/dist/lazyload.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+      BX.setCSSList(['/bitrix/js/main/lazyload/dist/lazyload.bundle.css','/bitrix/js/main/parambag/dist/parambag.bundle.css']);
+    </script>
+    <script>(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1634551659','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'3cfb26973a34a5a266a8a8969fbeba93'});</script><script  src="/bitrix/cache/js/s1/meatbrothers/kernel_main/kernel_main_v1.js?1634212506148865"></script>
+    <script src="/bitrix/js/main/calendar.min.js?156214207816311"></script>
+    <script src="/bitrix/js/sale/core_ui_widget.min.js?15621420816009"></script>
+    <script src="/bitrix/js/sale/core_ui_etc.min.js?15621420815781"></script>
+    <script src="/bitrix/js/sale/core_ui_autocomplete.min.js?156214208118509"></script>
+    <script src="/bitrix/js/main/core/core_popup.min.js?157003785152333"></script>
+    <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+    <script src="//yastatic.net/share2/share.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>BX.setJSList(['/bitrix/js/main/utils.js','/bitrix/js/main/core/core_fx.js','/bitrix/js/main/session.js','/bitrix/js/main/core/core_window.js','/bitrix/js/main/date/main.date.js','/bitrix/js/main/core/core_date.js','/local/templates/meatbrothers/components/bitrix/catalog.element/element/script.js','/bitrix/components/bitrix/search.title/script.js','/local/templates/meatbrothers/components/bitrix/search.title/header/script.js','/local/components/dc/phone.list/templates/.default/script.js','/local/templates/meatbrothers/js/jquery.inputmask.bundle.min.js','/local/templates/meatbrothers/components/dc/light.template/basket_line_header/script.js','/local/templates/meatbrothers/components/bitrix/menu/mobileft/script.js','/local/templates/meatbrothers/components/dc/phone.list/footer/script.js','/local/templates/meatbrothers/js/bootstrap.min.js','/local/templates/meatbrothers/js/popper.min.js','/local/templates/meatbrothers/js/jquery.mobile-events.min.js','/local/templates/meatbrothers/js/jquery.form.min.js','/local/templates/meatbrothers/js/jquery.fancybox.js','/local/templates/meatbrothers/js/slick.min.js','/local/templates/meatbrothers/js/jquery.cookie.js','/local/templates/meatbrothers/js/script.js','/bitrix/components/bitrix/sale.location.selector.search/templates/.default/script.js']); </script>
+    <script>BX.setCSSList(['/bitrix/js/main/core/css/core_popup.css','/bitrix/js/main/core/css/core_date.css','/local/templates/meatbrothers/components/bitrix/breadcrumb/dropdown/style.css','/local/templates/meatbrothers/components/bitrix/catalog.element/element/style.css','/local/components/dc/geoyandex/templates/.default/style.css','/local/templates/meatbrothers/components/bitrix/search.title/header/style.css','/local/components/dc/phone.list/templates/.default/style.css','/local/templates/meatbrothers/components/dc/light.template/basket_line_header/style.css','/local/templates/meatbrothers/components/bitrix/menu/header-menu/style.css','/local/templates/meatbrothers/components/bitrix/menu/mobileft/style.css','/local/templates/meatbrothers/components/bitrix/menu/footer_catalog/style.css','/local/templates/meatbrothers/components/bitrix/menu/footer/style.css','/local/templates/meatbrothers/components/dc/phone.list/footer/style.css','/local/templates/meatbrothers/components/bitrix/form/form-order/bitrix/form.result.new/.default/style.css','/local/templates/meatbrothers/css/bootstrap/bootstrap.min.css','/local/templates/meatbrothers/css/fancybox/jquery.fancybox.css','/local/templates/meatbrothers/css/style.css','/local/templates/meatbrothers/themes/black/style.css','/local/templates/meatbrothers/template_styles.css','/bitrix/components/bitrix/sale.location.selector.search/templates/.default/style.css']); </script>
+    <script>
+      (function () {
+      	"use strict";
+      
+      	var counter = function ()
+      	{
+      		var cookie = (function (name) {
+      			var parts = ("; " + document.cookie).split("; " + name + "=");
+      			if (parts.length == 2) {
+      				try {return JSON.parse(decodeURIComponent(parts.pop().split(";").shift()));}
+      				catch (e) {}
+      			}
+      		})("BITRIX_CONVERSION_CONTEXT_s1");
+      
+      		if (cookie && cookie.EXPIRE >= BX.message("SERVER_TIME"))
+      			return;
+      
+      		var request = new XMLHttpRequest();
+      		request.open("POST", "/bitrix/tools/conversion/ajax_counter.php", true);
+      		request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+      		request.send(
+      			"SITE_ID="+encodeURIComponent("s1")+
+      			"&sessid="+encodeURIComponent(BX.bitrix_sessid())+
+      			"&HTTP_REFERER="+encodeURIComponent(document.referrer)
+      		);
+      	};
+      
+      	if (window.frameRequestStart === true)
+      		BX.addCustomEvent("onFrameDataReceived", counter);
+      	else
+      		BX.ready(counter);
+      })();
+    </script>
+    <script  src="/bitrix/cache/js/s1/meatbrothers/template_e166dc14b777e09615c0a6911478b025/template_e166dc14b777e09615c0a6911478b025_v1.js?1634212370408394"></script>
+    <script  src="/bitrix/cache/js/s1/meatbrothers/page_28226a90102be5a7a9f6a7596a0e122f/page_28226a90102be5a7a9f6a7596a0e122f_v1.js?16342123702945"></script>
+    <script  src="/bitrix/cache/js/s1/meatbrothers/default_83983487835370ee1c8a94eaace0364a/default_83983487835370ee1c8a94eaace0364a_v1.js?16342123718367"></script>
+    <script>var _ba = _ba || []; _ba.push(["aid", "7ce7310697ca372eb9dc18f0f8f3b9cd"]); _ba.push(["host", "meatbrothers.net"]); _ba.push(["ad[ct][item]", "eyJwcm9kdWN0X2lkIjoxOTAsImlibG9ja19pZCI6MSwicHJvZHVjdF90aXRsZSI6Ilx1MDQzZFx1MDQzMFx1MDQzMVx1MDQzZVx1MDQ0MCAmcXVvdDtcdTA0MWZcdTA0NDBcdTA0M2VcdTA0NDRcdTA0MzgmcXVvdDsiLCJjYXRlZ29yeV9pZCI6IjE1IiwiY2F0ZWdvcnkiOnsiMTUiOiJcdTA0MWRcdTA0MzBcdTA0MzFcdTA0M2VcdTA0NDBcdTA0NGIifSwicHJpY2UiOjE5ODUsImN1cnJlbmN5IjoiUlVCIn0="]);_ba.push(["ad[ct][user_id]", function(){return BX.message("USER_ID") ? BX.message("USER_ID") : 0;}]);_ba.push(["ad[ct][recommendation]", function() {var rcmId = "";var cookieValue = BX.getCookie("BITRIX_SM_RCM_PRODUCT_LOG");var productId = 190;var cItems = [];var cItem;if (cookieValue){cItems = cookieValue.split(".");}var i = cItems.length;while (i--){cItem = cItems[i].split("-");if (cItem[0] == productId){rcmId = cItem[1];break;}}return rcmId;}]);_ba.push(["ad[ct][v]", "2"]);(function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+    <script>!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://vk.com/js/api/openapi.js?161",t.onload=function(){VK.Retargeting.Init("VK-RTRG-388514-52K9F"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><script type='text/javascript'>
+      (function(d, w, m) {
+      	window.supportAPIMethod = m;
+      	var s = d.createElement('script');
+      	s.type ='text/javascript'; s.id = 'supportScript'; s.charset = 'utf-8';
+      	s.async = true;
+      	var id = 'bb871e1eb730b9dac230f4f6acae806f';
+      	s.src = 'https://admin.verbox.ru/support/support.js?h='+id;
+      	var sc = d.getElementsByTagName('script')[0];
+      	w[m] = w[m] || function() { (w[m].q = w[m].q || []).push(arguments); };
+      	if (sc) sc.parentNode.insertBefore(s, sc); 
+      	else d.documentElement.firstChild.appendChild(s);
+      })(document, window, 'Verbox');
+    </script>
+    <script>
+      "use strict";
+      (function () {
+          if(!window.jQuery){
+              console.error('Для работы компонента basketjs необходима библиотека jQuery');
+              return;
+          }
+      
+          window.dcComponents = {};
+          window.dcComponents.basket = {'path':'/local/components/dc/basketjs','delayQuantity':'0','delayQuantityComposition':'0','buyQuantity':'0','buyQuantityComposition':'0','buyQuantityPrice':'0','buyQuantityWeight':'0','compareQuantity':'0','compareName':'CATALOG_COMPARE_LIST','compareIBlockId':'1'} || {};
+      
+      
+          $(document).on('dcBasketRequest', function (event, callback, callbackSomeData) {
+      
+              window.dcComponents.basket.sessid = BX.bitrix_sessid();
+              $.ajax({
+                  url: '/local/components/dc/basketjs/ajax.php',
+                  type: 'POST',
+                  data: window.dcComponents.basket,
+                  dataType: 'JSON',
+                  success: function (data) {
+                      window.dcComponents.basket = data;
+                      $(document).trigger('dcBasketReady',dcComponents.basket);
+                      if(typeof callback === "function"){
+                          callback(dcComponents.basket, callbackSomeData);
+                      }
+                  }
+              })
+          });
+          $(document).ready(function () {
+              $(document).trigger('dcBasketReady',dcComponents.basket);
+              window.BX.addCustomEvent(window, 'OnBasketChange', function () {
+                  $(document).trigger('dcBasketRequest');
+              });
+          });
+      })();
+    </script><script>
+      if (!window.BX && top.BX)
+      	window.BX = top.BX;
+      
+      
+      	
+      	new BX.Sale.component.location.selector.search({'scope':'sls-18456','source':'/bitrix/components/bitrix/sale.location.selector.search/get.php','query':{'FILTER':{'EXCLUDE_ID':0,'SITE_ID':'s1'},'BEHAVIOUR':{'SEARCH_BY_PRIMARY':'0','LANGUAGE_ID':'ru'}},'selectedItem':84,'knownItems':{'84':{'CODE':'0000073738','TYPE_ID':'5','PATH':[1],'VALUE':84,'DISPLAY':'Москва'},'1':{'CODE':'0000028023','TYPE_ID':'1','PATH':[],'VALUE':1,'DISPLAY':'Россия'}},'provideLinkBy':'id','messages':{'nothingFound':'К сожалению, ничего не найдено','error':'К сожалению, произошла внутренняя ошибка'},'callback':'force_select_city','useSpawn':false,'usePopup':false,'initializeByGlobalEvent':'','globalEventScope':'','pathNames':{'1':'Россия','84':'Москва'},'types':{'1':{'CODE':'COUNTRY'},'2':{'CODE':'COUNTRY_DISTRICT'},'3':{'CODE':'REGION'},'4':{'CODE':'SUBREGION'},'5':{'CODE':'CITY'},'6':{'CODE':'VILLAGE'},'7':{'CODE':'STREET'}}});
+      
+      
+    </script>
+    <script>
+      "use strict";
+      (function () {
+          if(!window.jQuery){
+              console.error('Для работы компонента geoyandex необходима библиотека jQuery');
+              return;
+          }
+          window.dcComponents = window.dcComponents || {};
+          window.dcComponents.geoYandex = {'counter':'1','path':'/local/components/dc/geoyandex','ip':'178.176.76.52','geo_city_id':'84','geo_city':'Москва'} || {};
+          $(document).on('dcGeoYandexRequest', function (event,params) {
+              params = params || {};
+              params.sessid = BX.bitrix_sessid();
+      
+              $.ajax({
+                  url: '/local/components/dc/geoyandex/ajax.php',
+                  type: 'POST',
+                  data: params,
+                  dataType: 'JSON',
+                  success: function (data) {
+                      window.dcComponents.geoYandex = data;
+                      $(document).trigger('dcGeoYandexReady',window.dcComponents.geoYandex);
+      
+                      $.cookie('geo_city',data.geo_city,{ expires: 365, path: '/' });
+                      $.cookie('geo_city_id',data.geo_city_id,{ expires: 365, path: '/' });
+      
+                                                  location.reload();
+                                          }
+              })
+          });
+          $(document).on('dcGeoYandexReady', function (event,params) {
+             if(params.geo_city !== undefined){
+                 $('.change-city[data-target="#geo"]').text(params.geo_city);
+             }
+          });
+          $(document).trigger('dcGeoYandexReady',window.dcComponents.geoYandex);
+          window.force_select_city = function(itemID, obj){
+              var geo_city = obj.getCurrentItem().DISPLAY;
+              var geo_city_id = obj.getCurrentItem().VALUE;
+              $(document).trigger('dcGeoYandexRequest',{'geo_city':geo_city,'geo_city_id':geo_city_id});
+              $('[aria-hidden="true"]').trigger('click');
+          }
+      })();
+    </script>
+    <script>
+      BX.ready(function(){
+      	new JCTitleSearch({
+      		'AJAX_PAGE' : '/catalog/items/nabor-dlya-profi/',
+      		'CONTAINER_ID': 'search',
+      		'INPUT_ID': 'title-search-input',
+      		'MIN_QUERY_LEN': 2
+      	});
+      });
+    </script>
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '402038507075452');
+      fbq('track', 'PageView');
+    </script>
+    <script>
+      $(document).ready(function () {
+      	$('.slider-div:not(:first-child)').hide();
+      	$('.btn.btn-sizes').click(function(){
+      		$('.btn.btn-sizes').removeClass('btn-select');
+      		$(this).addClass('btn-select');
+      		$('div.price .current').html($(this).attr('price'));
+      		$('div.price .old-price-block').html($(this).attr('old-price'));
+      		$('.dname').html($(this).attr('data-name'));
+      		$('.btn.btn-buy').attr('data-name',$(this).attr('product'));
+      		$('.btn.btn-buy').attr('data-id',$(this).attr('data-id'));
+      		if($('.slider-div').length>1){
+      			$('.slider-div').hide();
+      			$('.slider-div.item'+$(this).attr('data-id')).show();
+      			$('.slider-div.item'+$(this).attr('data-id')).find('.slick-slide').css('width','100%');
+      			$('.slider-div.item'+$(this).attr('data-id')).find('.slick-track').css('width','auto');
+      		}
+      		return false;
+      	});
+      	
+      	
+      });
+    </script><script>
+      function _processform_8BACKi(){
+      	if (BX('bxajaxid_fd70b043ccd51edbbe44e69bf25d1629_8BACKi'))
+      	{
+      		var obForm = BX('bxajaxid_fd70b043ccd51edbbe44e69bf25d1629_8BACKi').form;
+      		BX.bind(obForm, 'submit', function() {BX.ajax.submitComponentForm(this, 'comp_fd70b043ccd51edbbe44e69bf25d1629', true)});
+      	}
+      	BX.removeCustomEvent('onAjaxSuccess', _processform_8BACKi);
+      }
+      if (BX('bxajaxid_fd70b043ccd51edbbe44e69bf25d1629_8BACKi'))
+      	_processform_8BACKi();
+      else
+      	BX.addCustomEvent('onAjaxSuccess', _processform_8BACKi);
+    </script>
+  </body>
+</html>

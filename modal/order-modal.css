@@ -1,0 +1,230 @@
+#orderModal .modal-close {
+  width: 16px;
+  height: 16px;
+}
+#orderModal .h1 {
+  margin-top: 0;
+}
+#orderModal .text-danger {
+  display: none;
+}
+#orderModal .modal-dialog {
+  margin-top: calc((100vh - 445px) / 2);
+}
+#orderModal .modal-content {
+  background-color: #383838;
+  padding: 30px 25px 45px;
+  color: #fff;
+  transition: height 0.5s ease-out;
+  -webkit-transition: height 0.5s ease-out;
+}
+#orderModal.modal--response-mode .modal-content {
+  padding: 30px 56px 60px;
+}
+#orderModal hr {
+  border: none;
+  margin: 15px;
+}
+#orderModal .b-float-label {
+  position: relative;
+}
+#orderModal .b-float-label .password-invisible {
+  position: absolute;
+  top: 19px;
+  right: 14px;
+  cursor: pointer;
+  z-index: 1;
+}
+#orderModal .b-float-label .password-invisible div {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 16px;
+  height: 10px;
+}
+#orderModal .b-float-label .password-invisible div:first-child {
+  display: none;
+}
+#orderModal .b-float-label .password-invisible.inverse div:first-child {
+  display: block;
+}
+#orderModal .b-float-label .password-invisible.inverse div:last-child {
+  display: none;
+}
+#orderModal .b-float-label input:not([type='checkbox']),
+#orderModal .b-float-label input:not([type='radio']),
+#orderModal .b-float-label textarea {
+  background-color: #2f2f2f;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  height: 61px;
+  width: 100%;
+  font-size: 16px;
+  margin: 0;
+  padding: 0 20px;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #fff;
+}
+#orderModal .b-float-label input:not([type='checkbox']):focus:not([readonly]),
+#orderModal .b-float-label input:not([type='radio']):focus:not([readonly]),
+#orderModal .b-float-label textarea:focus:not([readonly]),
+#orderModal .b-float-label input:not([type='checkbox']).active,
+#orderModal .b-float-label input:not([type='radio']).active,
+#orderModal .b-float-label textarea.active {
+  border-bottom: 0;
+  box-shadow: none;
+}
+#orderModal
+  .b-float-label
+  input:not([type='checkbox']):focus:not([readonly])
+  ~ label,
+#orderModal
+  .b-float-label
+  input:not([type='radio']):focus:not([readonly])
+  ~ label,
+#orderModal .b-float-label textarea:focus:not([readonly]) ~ label,
+#orderModal .b-float-label input:not([type='checkbox']).active ~ label,
+#orderModal .b-float-label input:not([type='radio']).active ~ label,
+#orderModal .b-float-label textarea.active ~ label {
+  transform: translateY(-22px);
+  -webkit-transform: translateY(-22px);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+#orderModal .b-float-label textarea {
+  height: 130px;
+  padding: 15px;
+  display: block;
+}
+#orderModal .b-float-label label {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  font-size: 12px;
+  cursor: text;
+  -webkit-transition: color 0.2s ease-out, -webkit-transform 0.2s ease-out;
+  transition: color 0.2s ease-out;
+  -webkit-transition: color 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+  -webkit-transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+  -webkit-transition: transform 0.2s ease-out;
+  -webkit-transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
+  text-align: initial;
+  transform: translateY(23px);
+  -webkit-transform: translateY(23px);
+  pointer-events: none;
+}
+#orderModal .b-float-label label:not(.label-icon).active {
+  transform: translateY(-22px);
+  -webkit-transform: translateY(-22px);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+#orderModal .b-float-label.invalid input:not([type='checkbox']),
+#orderModal .b-float-label.invalid input:not([type='radio']),
+#orderModal .b-float-label.invalid textarea {
+  background-color: #ffaaaa;
+}
+#orderModal
+  .b-float-label.invalid
+  input[type='text']:focus:not([readonly])
+  + label,
+#orderModal
+  .b-float-label.invalid
+  input[type='tel']:focus:not([readonly])
+  + label,
+#orderModal .b-float-label.invalid label {
+  color: #f00;
+}
+#orderModal p {
+  margin-bottom: 30px;
+  font-size: 12px;
+}
+#orderModal button {
+  border: none;
+  height: 63px;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 100%;
+  margin-top: 30px;
+  background-color: #dd1101;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease-out, border-color 0.3s ease-out;
+  -webkit-transition: background-color 0.3s ease-out, border-color 0.3s ease-out;
+  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+#orderModal button:hover {
+  background-color: #ff4b3b;
+}
+.modal-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+#orderFormResult .btn {
+  background-color: #6a6a6a;
+  height: 63px;
+  line-height: 63px;
+  border-radius: 10px;
+  font-size: 18px;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  font-family: bernier_regularregular;
+  font-weight: 400;
+  padding: 0 42px;
+  transition: all 0.4s ease-in-out 0s;
+  cursor: pointer;
+}
+
+#orderForm {
+  display: block;
+}
+#orderFormResult {
+  display: none;
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+.modal--response-mode #orderForm {
+  display: none;
+}
+.modal--response-mode #orderFormResult {
+  display: block;
+}
+.modal--response-animate #orderFormResult {
+  opacity: 1;
+}
+#orderModal.modal--response-animate .modal-content {
+  height: 287px;
+}
+
+#orderModal.modal--error .text-danger {
+  display: block;
+}
+
+@media (min-width: 576px) {
+  #orderModal .modal-content {
+    width: 640px;
+    height: 357px;
+    padding: 30px 60px 60px;
+  }
+  #orderModal.modal--response-mode .modal-content {
+    padding: 30px 60px 60px;
+  }
+  #orderModal .modal-dialog {
+    min-width: 640px;
+    margin-top: calc((100vh - 357px) / 2);
+  }
+  #orderModal .modal-close {
+    width: 22px;
+    height: 22px;
+  }
+}
